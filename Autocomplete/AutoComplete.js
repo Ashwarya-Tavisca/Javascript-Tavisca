@@ -1,6 +1,7 @@
 function insertData(e){
 	var flag=0;
     var names=["Ragul", "Rajpreet", "Pallvi", "Neha", "Ankita", "Raja", "Shreea", "Smriti", "Shrijeet", "Ayush", "Swapnil", "Nihit", "Bhargavi", "Anushka", "Swinal", "Utkarsh", "Saurabh", "Paarth", "Vishwas", "Mohit", "Gurbaksh", "Ashwarya"];
+    names=names.sort();
     var data=document.getElementById("name").value;
     var optionList=document.getElementById("options");
     var listItems="<ul onkeypress='selectItem(event)'>";
