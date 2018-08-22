@@ -1,0 +1,41 @@
+body {
+    margin: auto;
+    width: 50%;
+    padding: 100px;
+}
+.autoCompleteBox{
+    margin-left: 100px;
+}
+.options{
+    width: 302px;
+    background-color:rgb(230, 222, 222);
+    max-height: 100px;
+    overflow-y:scroll;
+    }
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    margin: 0px;
+    list-style-type: none;
+}
+h2 {
+    padding-left:100px;
+}
+li:hover {
+    background-color: #647c6d;
+}
+input {
+    width: 300px;
+    border: none;
+}
+input:focus{
+    border: none;
+}
+label{
+    width: 50px;
+    padding-bottom: 1px;
+    border: 1px solid #000000;
+}
+

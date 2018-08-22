@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Autocomplete</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="AutoComplete.css" />
+    <script src="AutoComplete.js"></script>
+</head>
+<body>
+        <div class="autoCompleteBox">
+            <h2>NAMES</h2>
+            <label onclick="removeData()"><input type="text" id="name" onkeyup="insertData(event)">&#10008;</label>
+            <div id="options" class="options"></div>
+        </div>
+    </body>
+</html>
