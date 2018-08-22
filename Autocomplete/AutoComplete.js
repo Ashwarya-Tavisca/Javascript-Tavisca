@@ -1,4 +1,5 @@
 function insertData(e){
+    document.getElementById("cross").style.display="inline";
 	var flag=0;
     var names=["Ragul", "Rajpreet", "Pallvi", "Neha", "Ankita", "Raja", "Shreea", "Smriti", "Shrijeet", "Ayush", "Swapnil", "Nihit", "Bhargavi", "Anushka", "Swinal", "Utkarsh", "Saurabh", "Paarth", "Vishwas", "Mohit", "Gurbaksh", "Ashwarya"];
     names=names.sort();
@@ -25,10 +26,12 @@ function insertData(e){
 function selectData(data){
     document.getElementById("name").value=data;
     document.getElementById("options").innerHTML="";
+   
 }
 function removeData(){
     document.getElementById("name").value="";
     document.getElementById("options").innerHTML="";
+    document.getElementById("cross").style.display="none";
 }
 
 

@@ -28,7 +28,7 @@ li:hover {
 }
 input {
     width: 300px;
-    border: none;
+    border:2px;
 }
 input:focus{
     border: none;
@@ -38,4 +38,6 @@ label{
     padding-bottom: 1px;
     border: 1px solid #000000;
 }
-
+.cross{
+    display:none;
+}
