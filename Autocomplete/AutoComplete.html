@@ -8,10 +8,10 @@
     <link rel="stylesheet" type="text/css" media="screen" href="AutoComplete.css" />
     <script src="AutoComplete.js"></script>
 </head>
-<body>
-        <div class="autoCompleteBox">
+<body onclick="removeSuggestionBoxOnClick()">
+        <div class="autoCompleteBox" onclick="removeSuggestionBoxOnClick()">
             <h2>NAMES</h2>
-            <label><input type="text" id="name" autocomplete="off" onkeyup="insertData(event)">
+            <label><input type="text" id="name" autocomplete="off" oninput="insertData(event)" onkeyup="selectItem(event)" autofocus>
                <span id="cross" class="cross" onclick="removeData()"> &#10008;</span>
             </label>
             <div id="options" class="options"></div>
