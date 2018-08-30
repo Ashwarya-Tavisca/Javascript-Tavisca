@@ -1,0 +1,47 @@
+body {
+    margin: auto;
+    height:500px;
+    width: 1024px;
+    padding: 100px;
+}
+.autoCompleteBox{
+    margin-left: 30%;
+}
+.options{
+    width: 299px;
+    background-color:#FFFFFF; 
+    max-height: 92.5px;
+    overflow-y:scroll;
+    border:1px solid rgb(236, 236, 234);
+    }
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    margin: 0px;
+    list-style-type: none;
+}
+h2 {
+    padding-left:100px;
+}
+li:hover {
+    
+    background-color: #000000;
+    color:#FFFFFF;
+}
+input {
+    width: 300px;
+    border:2px;
+}
+input:focus{
+    border: none;
+}
+label{
+    width: 50px;
+    padding-bottom: 2px;
+    border: 1px solid #000000;
+}
+.cross{
+    display:none;
+}
